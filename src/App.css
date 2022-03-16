@@ -1,38 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+/* * {box-sizing: border-box;} */
 .App {
+  display: flex;
+ 
+  flex-direction: column ;
+  /* border: solid 2px black; */
   text-align: center;
+  /* background-color: rgba(255, 203, 119); */
+  background: rgb(254,249,239);
+  background: radial-gradient(circle, rgba(254,249,239,1) 0%, rgba(254,255,255,1) 100%);
+
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  padding-top: 10%;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  font-size:large;
+  background-color: rgba(254, 249, 239);
+  border-radius: 25px;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+  font-size: 24px; 
+  background-color: rgba(254, 249, 239);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover {
+  background-color: rgba(23, 195, 178);
+  color: rgb(44, 43, 43);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
+ 
+  font-family: 'Comforter', cursive;
+  font-size: 8vh;
+  text-align: center;
+  /* background-color: rgb(34, 124, 157); */
+
+  background: rgb(34,124,157);
+  background: linear-gradient(52deg, rgba(34,124,157,0.9562841530054644) 60%, rgba(23,195,178,1) 100%);
+  
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  margin: 10px;
+  width: 70vw;
+  height: 10vh;
+  border-radius: 25px;
+  color:rgba(254, 249, 239);
+  padding: 1%;
+
+ 
+
+}
+
+.signUp{
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+}
+
+
+form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  /* border: rgb(175, 53, 16) solid 4px; */
+  background-color: rgba(254, 109, 115);
+  text-align: center;
+  height: 70vh;
+  width: 70vw;
+  border-radius: 25px;
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.form:focus {
+  border: 3px solid rgb(5, 92, 253);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input{
+  font-size: x-large;
+  background-color: rgb(255, 255, 255);
+  height: 10vh;
+  width: 30vw;
+  border-radius: 25px;
+  /* border: coral solid 4px; */
 }

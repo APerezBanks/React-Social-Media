@@ -1,0 +1,8 @@
+.insidePic {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    padding: 5%;
+    flex-wrap: wrap;
+    border: solid 2px whitesmoke;
+}
