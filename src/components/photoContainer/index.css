@@ -1,0 +1,8 @@
+.images {
+     display: flex ;
+     flex-direction: column;
+     border: solid 3px whitesmoke;
+     height: 200px;
+     width: 200px;
+     padding: 3%;
+}
