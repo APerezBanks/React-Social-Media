@@ -14,9 +14,7 @@ const [bool, setBool] = useState(false);
 const submitHandler = (e) => {
     e.preventDefault();
     if( email && email.includes("@")) {
-      // let temp = username.toUpperCase()
-      // setUsername(temp)
-      // console.log(username)
+
     setUser({username: username, email: email, pass: pass});
    }
   };
