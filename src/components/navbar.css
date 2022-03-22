@@ -1,0 +1,35 @@
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(254,249,239);
+    background: radial-gradient(circle, rgba(254,249,239,1) 0%, rgba(254,255,255,1) 100%);
+  
+    width: 100vw;
+    height: 10vh;
+    list-style-type: none;
+  
+  }
+
+    a {
+      display: block;
+      padding: 8px;
+      background-color: rgba(23, 195, 178);
+     
+    } 
+
+  
+  li a 
+  {
+    display: block;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+  
+  li a:hover {
+    background-color: black;
+    color: rgba(23, 195, 178);
+  }

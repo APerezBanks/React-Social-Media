@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 
-/* * {box-sizing: border-box;} */
+* {box-sizing: border-box;} 
+
+.h3 {
+  text-align: center;
+  background: rgb(254,249,239);
+  background: radial-gradient(circle, rgba(254,249,239,1) 0%, rgba(254,255,255,1) 100%);
+
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 60%;
+  border-radius: 25px;
+  background: rgb(254,249,239);
+  background: radial-gradient(circle, rgba(254,249,239,1) 0%, rgba(254,255,255,1) 100%);
+}
+
+.nav {
+  display: flex;
+  background: rgb(254,249,239);
+  background: radial-gradient(circle, rgba(254,249,239,1) 0%, rgba(254,255,255,1) 100%);
+
+  width: 100vw;
+  height: 10vh;
+  
+
+
+}
+
+  li {
+    display: inline;
+  }
+
+
 .App {
   display: flex;
  

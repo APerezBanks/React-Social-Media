@@ -19,6 +19,7 @@ export const Home = () => {
     }
     return (
         <>
+       
         <button className="buttonCool" onClick={fetchPhotos}> Click me ! </button>
         <div className = "insidePic">
         {photos.map((item, index) =>(
